@@ -1,0 +1,202 @@
+body {
+    padding: 0;
+    margin: 0;
+}
+
+header {
+    background-color: rgb(214, 214, 214);
+}
+
+/* IMAGEN TALLERES JAVIER */
+#contenedor_img {
+    display: inline-block;
+    padding: 15px 10px;
+}
+#img_cabecera {
+    width: 250px;
+    height: 100px;
+}
+
+/* MENU NAVEGACION */
+#nav_cabecera {
+    float: right;
+    width: auto;
+    padding-top: 20px;
+    padding-right: 30px;
+}
+
+#ul_c {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: rgb(214, 214, 214);
+}
+
+.li_c {
+    float: right;
+}
+
+.li_c a {
+    font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
+    font-size: 20px;
+    display: inline-block;
+    color: #0095b9;
+    text-align: center;
+    padding: 15px 30px;
+    text-decoration: none;
+}
+
+.li_c a:hover {
+    color: #c461f6;
+    border-top: 4px solid #c461f6;
+}
+
+#cerrar_sesion{
+    color: #c461f6;
+}
+
+/* TEXTOS PRINCIPALES */
+#contenedor2_cabecera {
+    display: block;
+    padding-bottom: 4%;
+}
+
+#contenedor2_cabecera p {
+    margin: 0;
+}
+#cabecera_texto1 {
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20px;
+    padding-bottom: 20px;
+}
+
+#cabecera_texto2 {
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #007f9e;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+/********************* MAIN ******************************/
+#contenedor_main {
+    text-align: center;
+    padding-top: 2%;
+    padding-bottom: 5%;
+}
+
+#contenedor_vehiculos {
+    display: inline-block;
+    padding-right: 10%;
+}
+
+#img_vehiculos {
+    display: inline-block;
+}
+
+#img_vehiculos img {
+    height: 300px;
+    width: 200px;
+}
+
+#contenido_vehiculos {
+    float: right;
+    padding: 15px 30px;
+    text-align: left;
+}
+
+#lista_vehiculos {
+    display: inline-block;
+}
+
+#contenedor_recambios {
+    display: inline-block;
+    padding-left: 10%;
+}
+
+#img_recambios {
+    display: inline-block;
+}
+#img_recambios img {
+    height: 300px;
+    width: 200px;
+}
+
+#contenido_recambios {
+    float: right;
+    padding: 15px 30px;
+    text-align: left;
+}
+
+#lista_recambios {
+    display: inline-block;
+}
+
+.titulos {
+    font-weight: bold;
+    font-size: 30px;
+    font-family: "Arial Narrow Bold", sans-serif;
+}
+
+.listas li {
+    font-family: "Arial Narrow Bold", sans-serif;
+    font-size: 20px;
+}
+
+.botones{
+    padding-top: 40px;
+    padding-right: 5px;
+}
+button{
+    border: none;
+    background-color: #0095b9;
+    height: 50px;
+    width: 150px;
+    border-radius: 100px;
+    font-family: "Arial Narrow Bold", sans-serif;
+    font-size: 20px;
+    color: white;
+    cursor: pointer;
+    outline: none;
+    transition: background-color 1s, width 0.5s, height 0.5s;
+}
+button:hover{
+    background-color: #c461f6;
+    height: 60px;
+    width: 160px;
+}
+/*****************  FOOOOTEEER   ************************/
+footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: auto;
+    background-color: #0095b9;
+}
+.img_footer {
+    height: 60px;
+    width: 60px;
+    opacity: 75%;
+}
+
+.ico_footer{
+    float: left;
+}
+
+.texto_footer{
+    float: left;
+    color: white;
+    font-family: "Arial Narrow Bold", sans-serif;
+    font-size: 20px;
+    padding-top: 5px;
+    padding-left: 5px;
+}
+.div_footer{
+    display: inline-block;
+    padding-right: 100px;
+    padding-top: 15px;
+    padding-left: 15px;
+    padding-bottom: 15px;
+}

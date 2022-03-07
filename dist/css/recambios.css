@@ -1,0 +1,260 @@
+body {
+  padding: 0;
+  margin: 0;
+}
+
+header {
+  background-color: rgb(214, 214, 214);
+}
+
+/* IMAGEN TALLERES JAVIER */
+#contenedor_img {
+  display: inline-block;
+  padding: 15px 10px;
+}
+#img_cabecera {
+  width: 250px;
+  height: 100px;
+}
+
+/* MENU NAVEGACION */
+#nav_cabecera {
+  float: right;
+  width: auto;
+  padding-top: 20px;
+  padding-right: 30px;
+}
+
+#ul_c {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: rgb(214, 214, 214);
+}
+
+.li_c {
+  float: right;
+}
+
+.li_c a {
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
+  font-size: 20px;
+  display: inline-block;
+  color: #0095b9;
+  text-align: center;
+  padding: 15px 30px;
+  text-decoration: none;
+}
+
+.li_c a:hover {
+  color: #c461f6;
+  border-top: 4px solid #c461f6;
+}
+
+#cerrar_sesion{
+  color: #c461f6;
+}
+
+/**********  MAIN  **********/
+
+/* TEXTOS PRINCIPALES */
+#contenedor2_cabecera {
+  display: block;
+  padding-bottom: 2%;
+  padding-top: 2%;
+}
+
+#contenedor2_cabecera p {
+  margin: 0;
+}
+
+#cabecera_texto1 {
+  text-align: center;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 20px;
+  padding-bottom: 20px;
+}
+
+#cabecera_texto2 {
+  text-align: center;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: #007f9e;
+  font-size: 30px;
+  font-weight: bold;
+}
+
+#contenedor_main {
+  text-align: left;
+  padding-top: 2%;
+  float: left;
+  width: 75%;
+}
+
+/* CSS DE LOS DIVS DE LOS VEHICULOS */
+.contenedor_piezas {
+  width: 85%;
+  height: 354px;
+  margin-right: 0;
+  margin-left: 10%;
+  padding-bottom: 30px;
+}
+
+.piezas {
+  display: inline-block;
+  width: 15%;
+}
+
+.piezas img {
+  width: auto;
+  height: 120px;
+}
+
+div p {
+  margin: 0;
+}
+
+.botones {
+  display: block;
+}
+.cerrar {
+  width: 30px;
+  height: 30px;
+  margin: 0;
+}
+.cerrar img {
+  width: 30px;
+  height: 30px;
+  border-radius: 10px;
+}
+
+.cerrar img:hover {
+  box-shadow: 2px 2px 5px rgb(161, 161, 161);
+  cursor: pointer;
+}
+
+.botones button {
+  width: 85%;
+  height: auto;
+  font-size: 17px;
+  padding: 5px;
+  color: white;
+  background-color: #0494bc;
+  border: none;
+  cursor: pointer;
+  padding-top: 7px;
+  padding-bottom: 7px;
+  border-radius: 5px;
+}
+
+/* LETRAS INFO VEHICULOS*/
+.nombre_pieza {
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  font-weight: bold;
+  font-size: 20px;
+  padding-top: 10px;
+  padding-bottom: 20px;
+}
+
+.precio_pieza {
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  padding-bottom: 30px;
+}
+
+.stock {
+  text-align: left;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  font-size: 14px;
+  padding-top: 5px;
+  padding-bottom: 12px;
+  color: rgba(15, 15, 15, 0.6);
+}
+
+/**************************************************************/
+/* ASIDE */
+#carrito {
+  position: absolute;
+  padding-right: 20px;
+  display: inline-block;
+  width: 23%;
+}
+#listaCarrito {
+  text-align: right;
+}
+#listaCarrito div {
+  display: inline-block;
+  top: 0;
+}
+
+.item {
+  padding-bottom: 20px;
+  padding-top: 5px;
+}
+.nombre_item,
+.dinero_total {
+  padding-right: 30px;
+  font-family: "Roboto Condensed", sans-serif;
+  font-weight: bold;
+  font-size: 16px;
+}
+
+.precio_item {
+  padding-left: 10px;
+}
+
+#cesta {
+  text-align: left;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
+  color: #c461f6;
+  font-size: 20px;
+}
+
+.item input {
+  width: 40px;
+}
+
+/*TOTAL PEDIDO*/
+#total_carrito {
+  display: flex;
+  text-align: right;
+  padding-right: 30px;
+  padding-top: 50px;
+  font-family: "Roboto Condensed", sans-serif;
+  font-weight: bold;
+  font-size: 25px;
+}
+#total_carrito p {
+  padding-right: 30px;
+}
+
+/* REALIZAR PEDIDO*/
+#div_btn_carrito {
+  display: block;
+  padding-top: 25px;
+}
+
+#div_btn_carrito button {
+  width: 100%;
+  height: 50px;
+  border-radius: 10px;
+  font-size: 20px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  background-color: #0494bc;
+  color: white;
+  border: 2px solid #0494bc;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+/* MEDIAS QUERYS */
+
+@media screen and (max-width: 1000px) {
+  .piezas {
+    display: inline-block;
+    width: 30%;
+  }
+
+  .contenedor_piezas {
+    height: auto;
+  }
+}
